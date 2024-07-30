@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.main{
+    width: 100%;
+    height: 100%
+}
+.nav{
+    width: 100%;
+    font-size: 13px;
+    display: flex;
+    justify-content:space-evenly;
+    padding: 30px 0px;
+    cursor: pointer;
+}
+.nav span{
+    
+    color: rgb(232, 105, 15);
+    filter: drop-shadow(1px 1px 20px rgb(186, 114, 27));
+    
+}
+.nav h2{
+    color: rgb(106, 105, 105);
+}
+.about{
+    width: 100%;
+    padding:10% 6%;
+}
+.about h1{
+    font-size: 139px;
+    letter-spacing: -7px;
+}
+.about p{
+  font-size: 40px;
+}
+.about span{
+    color: rgb(226, 103, 9);
+    filter: drop-shadow(1px 1px 20px rgb(186, 114, 27));
+}
+.all-case-studies{
+    width: 100%;
+  
+}
+
+.case1{
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+}
+.case1 p{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px 80px;
+}
+.case1 h1{
+    position:absolute;
+    bottom: -46%;
+    left: 83%;
+    transform: translate();
+}
+.img{
+    display: flex;
+    justify-content: space-around;
+   
+}
+.img1{
+    width: 45% ;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 3%;
+    
+}
+.img2{
+    width: 45% ;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 3%;
+    
+}
+.sketch-section{
+    width: 100%;
+   display: flex;
+    
+}
+
+.left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 40px;
+    letter-spacing: -1px;
+    position: relative;
+}
+.left p{
+    padding: 5px 0px;
+    color: rgb(109, 109, 108);
+}
+.left-btn{
+    width: 10%;
+    padding: 15px 25px;
+    /* border: 2px solid rgb(231, 117, 11); */
+    background-color: rgb(218, 91, 12);
+    border-radius:42% ;
+    position: absolute;
+    left: 84%;
+    cursor: pointer;   
+    filter: drop-shadow(1px 1px 20px rgb(186, 114, 27));
+}
+.right{
+    position: relative;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 40px;
+    letter-spacing: -1px;
+}
+.right p{
+    padding: 5px 0px;
+    color: rgb(109, 109, 108);
+}
+.right-btn{
+    width: 10%;
+    padding: 15px 25px;
+    /* border: 2px solid rgb(25, 24, 24); */
+    border-radius:42% ;
+    position: absolute;
+    left: 84%;
+    background-color: rgb(218, 91, 12);
+    color: aliceblue;
+    cursor: pointer;   
+    /* box-shadow: 10px 10px 10px rgb(206, 137, 81);  */
+    filter: drop-shadow(1px 1px 20px rgb(197, 119, 24));
+    
+}
